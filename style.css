@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 10px; */
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.wether-app {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* border: 3px solid #000; */
+    border: none;
+    border-radius: 100px;
+    height: auto;
+    width: 80%;
+    max-width: 750px;
+    padding: 2em;
+    background-color: cyan;
+}
+
+.header {
+    font-size: 300%;
+}
+
+.input{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-bottom: 10px;
+    /* width: 100%; */
+}
+.input input{
+    border: none;
+    border-radius: 25px;
+    padding: 5px 20px;
+    font-size: 20px;
+    height: 55px;
+    width: 230px;
+    background-color:lightgoldenrodyellow;
+}
+.input button{
+    width: 80px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color:lightgoldenrodyellow;
+}
+.input button img{
+    width: 30px;
+}
+.error{
+    display: none;
+    color: red;
+}
+.wether {
+    display: none;
+    /* display: flex; */
+    justify-content: space-around;
+    margin: 20px;
+    margin-top: 40px;
+    color: navy;
+}
+
+.highlight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.condition {
+    width: 100%;
+}
+
+.condition img {
+    width: 100%;
+}
+.main-text{
+    font-size: 210%;
+}
+
+.temp{
+    margin: 1px;
+    margin-top: 2px;
+}
+.city{
+    margin: 1px;
+}
+.other{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.extra{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.extra img{
+    width: 20%;
+}
+.wind-img{
+    width: 15%;
+    margin-left: 20px;
+}

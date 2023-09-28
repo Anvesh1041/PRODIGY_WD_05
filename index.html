@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wether App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wether-app">
+        <h1 class="header">Wether App</h1>
+        <div class="input">
+            <input type="text" placeholder="Enter city name">
+            <button><img id="search-icon" src="img/search icon.png" alt=""></button>
+    
+        </div>
+        <div class="error">*City is not recognized</div>
+        <div class="wether">
+            <div class="highlight">
+                <div class="condition"><img src="img/clear.png" alt=""></div>
+                <h1 class="temp main-text">25 °C</h1>
+                <h2 class="city main-text">Mumbai</h2>
+            </div>
+            <div class="other">
+                <div class="extra">
+                    <img src="img/humidity.png" alt="">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>humidity</p>
+                    </div>
+                </div>
+                <div class="extra">
+                    <img class="wind-img" src="img/wind.png" alt="">
+                    <div>
+                        <p class="wind">15 km/hr</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
